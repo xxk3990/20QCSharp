@@ -51,6 +51,7 @@ namespace _20_Questions
                         userInput = Console.ReadLine();
                         Console.WriteLine("What is the difference between " + n.Data + " and " + userInput + "?");
                         string diff = Console.ReadLine();
+                        Console.WriteLine("I love learning new things!");
                         tree.Add(userInput, diff, n);
                     
                 } 
